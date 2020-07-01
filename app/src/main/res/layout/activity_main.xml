@@ -116,14 +116,25 @@
                 android:layout_width="20dp"
                 android:layout_height="20dp"
                 app:cardBackgroundColor="#dcdcdc"
+                android:layout_gravity="center"
                 app:cardCornerRadius="25dp">
 
                 <ImageView
                     android:layout_width="15dp"
-                    android:layout_height="15dp"/>
+                    android:layout_height="15dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_baseline_check_24"/>
 
             </androidx.cardview.widget.CardView>
 
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Minimum one uppercase"
+                android:textColor="@android:color/black"
+                android:gravity="center|start"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"/>
 
         </LinearLayout>
 
